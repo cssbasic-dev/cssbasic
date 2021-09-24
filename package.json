@@ -1,0 +1,28 @@
+{
+  "name": "cssbasic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cssbasic-dev/cssbasic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cssbasic-dev/cssbasic/issues"
+  },
+  "homepage": "https://github.com/cssbasic-dev/cssbasic#readme",
+  "dependencies": {
+    "clean-css-cli": "^4.3.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "prettier": "2.4.1"
+  }
+}

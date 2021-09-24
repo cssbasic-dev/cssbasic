@@ -1,0 +1,28 @@
+@custom-color: #b71c1c;
+
+.tabs {
+  .tab {
+    a {
+      color: @custom-color;
+      &.active {
+        color: @custom-color;
+      }
+      &:hover {
+        color: @custom-color;
+      }
+      &:focus {
+        background-color: rgba(@custom-color, 0.1);
+        &.active {
+          background-color: rgba(@custom-color, 0.1);
+        }
+      }
+    }
+  }
+  .indicator {
+    background-color: @custom-color;
+  }
+}
+
+.hidden {
+  display: none;
+}

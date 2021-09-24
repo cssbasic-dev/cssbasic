@@ -1,0 +1,49 @@
+/*! cssbasic.css | MIT License | github.com/cssbasic-dev/cssbasic */
+@import "global";
+@import (once) "nav.less";
+@import (once) "link.less";
+@import (once) "card.less";
+@import (once) "form.less";
+@import (once) "grid.less";
+@import (once) "typography.less";
+@import (once) "utilities.less";
+@import (once) "box.less";
+@import (once) "button.less";
+@import (once) "footer.less";
+@import (once) "list.less";
+@import (once) "table.less";
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  line-height: 1.6;
+  color: #111;
+  background-color: #f7f7f7;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next",
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+
+  max-width: 1224px;
+
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.noselect {
+  user-select: none;
+}
+
+@import (inline) "../../node_modules/normalize.css/normalize.css";
